@@ -1,0 +1,147 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.details{
+  background-color: rgb(51, 49, 49);
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 20px;
+  top: 15px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+/* .page{
+ margin-top: 30px;
+ margin-left: auto;
+ margin-right: auto;
+} */
+.next{
+ position: absolute;
+ margin-top: -120px;
+ display: flex;
+ justify-items: center;
+
+}
+.location{
+  color: rgb(182, 170, 170);
+  margin-left: 5px;
+}
+.nu{
+  color: orange;
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+.cards-slider-wrapper{
+  display: flex;
+  position: absolute;
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  
+}
+.card{
+   flex: 1px;
+   min-width: 218px; 
+   opacity: 1;
+   transition: opacity 300ms linear;
+   margin-right: 10px;
+}
+
+.cards-slider{
+  position: relative;
+  max-width: 226px;
+  margin: auto;
+  margin-left: 10px;
+}
+.cards-slider:after {
+  content: '';
+  display: block;
+  width: 95%;
+  height: 275px;
+  outline: 4px solid orange;
+  position: absolute;
+  top: 0px;
+  left: 0px
+}
+.fitt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 440px;
+  width: 100%
+}
+.item-f{
+  color: rgb(232, 181, 88);
+ justify-content: space-between;
+ margin-left: 10px;
+
+}
+.filt{
+  color: rgb(225, 184, 107);
+  font-weight: bold;
+  font-size: 20px;
+}
+.ican{
+  width: 200px;
+  height: 75px;
+  background-color: transparent;
+  margin-left: 6px;
+}
+.icann{
+  width: 93%;
+  height: 75px;
+  margin-left: 6px;
+  margin-top: -80px;
+  z-index: 9px;
+  opacity: 0.8;
+  background-color: rgb(56, 58, 58);
+}
+.story{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+  color: rgb(225, 184, 107);
+}
+
+.loading {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 8rem;
+  color: rgb(79, 74, 74);
+  font-size: 24px;
+}
+
+
+
+@media screen and (max-width: 575px) {
+  .fitt {
+   flex-direction: column;
+   margin-top: 370px;
+  }
+  .item-f{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .next{
+    margin-top: -255px;
+   }
+   .cards-slider{
+     margin-left: auto;
+   }
+   .nu{
+     position: relative;
+     margin-left: 100px;
+     width: 60px;
+   }
+   .cards-slider{
+    margin-left: 0px;
+  }
+}

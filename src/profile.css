@@ -1,0 +1,236 @@
+/* body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+} */
+.emp-profile{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 3%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: rgb(32, 30, 30);
+    height: auto;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+   width: 300px;
+   height: 200px;
+   object-fit: cover;
+   
+}
+.again{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#base{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 24px;
+}
+.chaan{
+    text-align: center;
+    color: rgb(233, 229, 226);
+    padding-top: 3px;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 150px;
+    height: 20px;
+   margin-left: auto;
+   margin-right: auto;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    margin-left: -150px;
+}
+.profile-img .file:hover{
+   background-color: rgb(41, 39, 39);
+}
+.profile-head{
+    margin-top: -160px;
+}
+.min{
+    margin-top: 50px;
+}
+.fille{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+}
+.profile-head h5{
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.profile-head h6{
+    color:orange;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 0.5rem;
+    width: 30%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+    background-color: #373b3f;
+}
+.profile-head p{
+    font-size: 12px;
+    color: orange;
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.profile-head span{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:10%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+/* .contain{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    background: rgb(32, 30, 30);
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: -8px;
+    height: auto;
+} */
+.about{
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 100;
+    width: 94.5%;
+    border: 1px solid white;
+    padding: 0.8em;
+    text-align: initial;
+    background-color: black;
+  }
+ 
+.item{
+    flex-grow: 1px;
+}
+.item-2, .ha{
+    margin-left: -150px;
+}
+.item-2 p{
+    color: white;
+}
+.item h2{
+    font-size: 17px;
+    color: orange;
+    font-weight: 600;
+    margin-top: 10%;
+    text-decoration: underline;
+}
+
+.hh{
+    font-size: 17px;
+    color: orange;
+    font-weight: 600;
+    margin-top: 10%;
+    text-decoration: underline;  
+}
+.item p{
+    text-decoration: none;
+    color: rgb(148, 141, 112);
+    font-weight: 600;
+    font-size: 14px;
+}
+.info{
+    color: white;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: white;
+}
+label{
+    color: gray
+}
+.butt{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: orange;
+    border: 1px solid orange;
+}
+.parent{
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
+}
+.butt:hover{
+    background-color: #373b3f;
+}
+
+@media(max-width:766px) {
+    .profile-work{
+        padding: 3%;
+        margin-top: -15%;
+    }
+   .but{
+       width: 200px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .contain{
+       margin-left: 0px;
+   }
+   .about{
+    font-size: 0.9em;
+    padding: 0.5em;
+    margin-top: 50px;
+  }
+  .item-2, .ha{
+    margin-left: 0px;
+}
+.profile-head{
+    margin-left: 20px;
+}
+  }
+
+  @media(min-width:767px) {
+    .profile-work{
+        padding: 3%;
+        margin-top: -15%;
+    }
+   .but{
+       width: 200px;
+      
+   }
+  }

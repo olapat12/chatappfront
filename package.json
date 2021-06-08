@@ -1,0 +1,72 @@
+{
+  "name": "chatapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "bootstrap-less": "^3.3.8",
+    "chartist": "^0.11.4",
+    "dayjs": "^1.8.32",
+    "emoji-picker-react": "^3.2.4",
+    "filerobot-image-editor": "^3.11.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "pagination": "^0.4.6",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-button-loader": "^2.0.0",
+    "react-chartist": "^0.14.3",
+    "react-chat-elements": "^10.9.2",
+    "react-icons": "^3.11.0",
+    "react-js-pagination": "^3.0.3",
+    "react-loading-skeleton": "^2.1.1",
+    "react-multi-select-component": "^3.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-sidebar": "^3.0.2",
+    "react-simple-chatbot": "^0.6.1",
+    "react-stomp": "^5.0.0",
+    "react-talk": "^1.0.0",
+    "react-tooltip": "^4.2.8",
+    "scrolling-slider-gallery": "^0.2.0",
+    "simple-react-lightbox": "^3.3.4-1",
+    "sockjs-client": "^1.4.0",
+    "stomp-client": "^0.9.0",
+    "stompjs": "^2.3.3",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

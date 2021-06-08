@@ -1,0 +1,93 @@
+.editt{
+    display: flex;
+    margin-top: 80px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.editt p{
+    color: orange;
+}
+.ed{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 100px;
+ }
+.gender{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 92px;
+}
+.orente{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 67px;
+}
+.look{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 58px;
+}
+.relation{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+}
+.prof{
+    width: 170px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 30px;
+}
+.abt{
+    height: 100px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-left: 100px;
+    text-align: initial;
+    margin-top: -15px;
+ }
+@media(max-width:486px) {
+   .editt{
+       margin-left: 5px;
+   }
+}
+
